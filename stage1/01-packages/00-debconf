@@ -1,0 +1,3 @@
+console-setup   console-setup/charmap47 select  UTF-8
+console-setup   console-setup/codeset47 select  Guess optimal character set
+console-setup   console-setup/fontface47        select  Do not change the boot/kernel font
