@@ -1,1 +1,2 @@
 qemu-aarch64-static:qemu-user-static
+sgdisk:gdisk

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+mount / -o remount,rw
+
+run-parts -v /etc/firstboot.d
+
+mount / -o remount,ro
+
+exec /sbin/init

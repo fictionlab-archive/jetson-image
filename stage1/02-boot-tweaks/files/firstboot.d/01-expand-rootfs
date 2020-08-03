@@ -1,0 +1,4 @@
+#!/bin/sh
+
+parted -m /dev/mmcblk0 resizepart Fix 1 yes 100%
+resize2fs /dev/mmcblk0p1
